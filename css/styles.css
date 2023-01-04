@@ -138,10 +138,9 @@ img {
 
 .menu-container {
     position: relative;
-    padding: ;
-    display: flex;
-    flex-direction: column;
-    
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 40px;
 }
 
 .close-btn-menu {
@@ -149,13 +148,19 @@ img {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #E7E9FC;
     padding: 0;
     line-height: 0;
     position: absolute;
     top: 40px;
     right: 40px ;
 }
+
+.nav-mobile {
+    display: flex;
+    flex-direction: column;
+} 
 
 .mobile-menu-text {
     font-weight: 700;
