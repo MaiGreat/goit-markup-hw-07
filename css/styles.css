@@ -90,6 +90,13 @@ img {
     background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/Dark-bg-mobile.jpg);
+    padding: 112px 0;
+    }
+
+    .hero .hero-titel {
+    font-size: 36px;
+    line-height: 1.1;
+    max-width: 320px;
     }
 }
 
@@ -103,9 +110,18 @@ img {
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg);
     max-width: 1440px;
+    padding: 192px 0 192px 0;
     }
 
+    .hero .hero-titel {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 500px;
+    }
 }
+
+
 @media screen and (min-width: 1200px) {
     .container {
         width: 1158px;
@@ -367,31 +383,25 @@ img {
     
 }*/
 
-/*HERO*/
+/*===========================================HERO========================================*/
 .hero {
     background: var(--main-text-color);
-    padding: 192px 0 192px 0;
     text-align: center;
     background-size: cover;
     margin: auto;
 }
 
 .hero .hero-titel {
-
-    color: var(--hero-text);
     font-weight: 600;
-    font-size: 56px;
-    line-height: 1.07;
     letter-spacing: 0.02em;
-    max-width: 500px;
+    color: var(--hero-text);
     margin-left: auto;
     margin-right: auto;
 }
 
-.hero-tite{
+.hero-tite {
     display: flex;
     padding: auto;
-
 }
 
 .hero .button-hero {
