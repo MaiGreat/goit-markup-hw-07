@@ -603,6 +603,7 @@ padding: 24px 0;
 @media screen and (min-width: 1200px) {
     .features {
     gap: 24px;
+    flex-wrap: nowrap;
     }
 } 
 
@@ -676,15 +677,8 @@ background-image: url(../images/antenna.svg);
     font-size: 16px;
     line-height: 1.5;
 }
-
 }
 
-@media screen and (min-width: 768px) {
-
-}
-
-
-@media screen and (min-width: 1200px) {}
 
 .team {
     background: var(--logo-past-text);
@@ -732,7 +726,9 @@ background-image: url(../images/antenna.svg);
 
 
 /*--------------------------------------CUSTOMERS--------------------------------*/
-/*.section .title-customers {
+
+
+.section .title-customers {
 line-height: 1.16;
 letter-spacing: 0.03em;
 font-weight: 700;
@@ -751,11 +747,11 @@ margin-bottom: 72px;
 .customers-icon {
     display: inline-block;
     
-}*/
+}
 
 /*flex-basis: calc((100% - кол-во маржинов в строке * значение маржина) / кол-во элементов в строке);*/
 
-/* .customers-add {
+ .customers-add {
     flex-basis: calc((100%-5*24)/6);
     
 }
@@ -776,7 +772,7 @@ margin-bottom: 72px;
  {
     fill: var(--accent-color);
     border-color: #4D5AE5;
-} */
+}
 
 
 
