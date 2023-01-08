@@ -933,7 +933,11 @@ gap: 24px;
 
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .footer-page {
+        flex-direction: row;
+    }
+}
 
 @media screen and (min-width: 1200px) {
 .footer-text {
@@ -1034,6 +1038,9 @@ gap: 24px;
 @media screen and (min-width: 768px) {
 .sub-media {
     width: 264px;
+}
+.subscribe {
+    flex-direction: row;
 }
 }
 
