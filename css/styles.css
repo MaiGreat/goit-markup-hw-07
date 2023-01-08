@@ -799,7 +799,17 @@ margin-bottom: 72px;
 
 
 /*-----------------------------PORTFOLIO------------------------*/
+@media screen and (min-width: 480px) {
 
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
 /*.overlay-link {
     display: block;
     text-decoration: none;
@@ -902,8 +912,40 @@ gap: 24px;
 }*/
 
 
-/*footer*/
-/*.footer {
+/*=================================FOOTER================================================*/
+@media screen and (min-width: 480px) {
+    .footer-page {
+        flex-direction: column;
+    }
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.media {
+    text-align: center;
+}
+
+.media-footer {
+    padding: 10px 10px 72px 10px;
+}
+
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {
+.footer-text {
+    margin-right: 72px;
+}
+
+.social-media {
+    margin-right: 80px;
+}
+}
+
+.footer {
     background: var(--main-text-color);
     padding: 100px 0;
     display: flex; 
@@ -918,14 +960,13 @@ gap: 24px;
 }
 
 .footer-text {
+    width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--footer-text);
     letter-spacing: 0.02em;
-    width: 264px;
     margin-top: 16px;
-    margin-right: 72px;
 }
 
 
@@ -952,7 +993,7 @@ gap: 24px;
     gap: 16px;
     justify-content: center;
     margin-top: 16px;
-    margin-right: 80px;
+    
 }
 
 .media-list {
@@ -973,10 +1014,30 @@ gap: 24px;
     fill: var(--logo-past-text);
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}*/
+}
 
 /*---------------------------------Subscribe---------------------------------------*/
-/*.sub {
+@media screen and (min-width: 480px) {
+    .subscribe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.sub-media {
+    width: 100%;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+.sub-media {
+    width: 264px;
+}
+}
+
+.sub {
     margin-bottom: 16px;
     
 }
@@ -986,7 +1047,7 @@ gap: 24px;
 }
 
 .sub-media {
-    width: 264px;
+    
     height: 40px;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1035,14 +1096,14 @@ gap: 24px;
     box-shadow: 0px 1px 6px rgb(46 47 66 / 8%),
     0px 1px 1px rgb(46 47 66 / 16%),
     0px 2px 1px rgb(46 47 66 / 8%);
- }*/
+ }
 
-/*.sub-linl {
+.sub-linl {
     position: absolute;
     right: 0;
     bottom: 0;
     transform: translate(-50%, -50%)
-}*/
+}
 
 
 /*--------------------------------------MODAL-----------------------------*/
