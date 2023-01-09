@@ -988,6 +988,10 @@ gap: 24px;
 .social-media {
     margin-right: 80px;
 }
+
+.footer-page {
+    flex-wrap: nowrap;
+}
 }
 
 .footer {
