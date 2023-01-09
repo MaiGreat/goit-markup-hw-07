@@ -730,11 +730,11 @@ background-image: url(../images/antenna.svg);
 @media screen and (min-width: 480px) {
 .customers {
     flex-wrap: wrap;
-    column-gap: 72px;
-    row-gap: 16px;
+    gap: 72px 16px;
 }
 .customers-add {
     flex-basis: calc((100% - 16px)/2);
+    
     }
 }
 
@@ -753,6 +753,7 @@ background-image: url(../images/antenna.svg);
 
 .customers {
     flex-wrap: nowrap;
+    gap: 24px;
 }
 }
 
@@ -767,7 +768,6 @@ margin-bottom: 72px;
 
 .customers {
     display: flex;
-    gap: 24px;
     justify-content: center;
     
 }
@@ -938,6 +938,11 @@ gap: 24px;
     .footer-page {
         flex-direction: row;
     }
+
+        .footer-page {
+            display: flex;
+    
+        }
 }
 
 @media screen and (min-width: 1200px) {
@@ -956,10 +961,7 @@ gap: 24px;
     display: flex; 
 }
 
-.footer-page {
-    display: flex;
-    
-}
+
 
 .logo-past {color: var(--logo-past-text);
 }
