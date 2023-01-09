@@ -52,9 +52,9 @@ img {
     margin: 0 auto;
 } */
 
-.container-nav {
+/* .container-nav {
     display: flex;
-}
+} */
 
 
 
@@ -146,7 +146,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero {
 background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/laptop/Dark-bg@2.jpg);
+        url(../images/laptop/Dark-bg@2x.jpg);
     }
 }
 
@@ -218,7 +218,7 @@ padding-top: 120px;
     .hero {
     background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/laptop/Dark-bg@2.jpg);
+    url(../images/laptop/Dark-bg@2x.jpg);
     }
     }
 }
@@ -586,9 +586,10 @@ padding: 24px 0;
     width: 264px;
 }
 .features {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0;
     flex-direction: row;
+    flex-basis: 720px;
 }
 
 .type-works {
@@ -733,7 +734,7 @@ background-image: url(../images/antenna.svg);
     row-gap: 16px;
 }
 .customers-add {
-    flex-basis: calc((100%-1*16)/2);
+    flex-basis: calc((100% - 16px)/2);
     }
 }
 
