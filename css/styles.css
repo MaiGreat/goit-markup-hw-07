@@ -120,6 +120,7 @@ screen and (min-resolution: 2dppx) and (max-width: 480px) {
 @media screen and (min-width: 768px) {
     .container {
         width: 720px;
+
     }
 
 .section {
@@ -589,11 +590,16 @@ padding: 24px 0;
     flex-wrap: nowrap;
     padding: 0;
     flex-direction: row;
-    flex-basis: 720px;
+    display: flex;
+    gap: 24px;
 }
 
 .type-works {
     display: none;
+}
+
+.about-us {
+flex-basis: calc((100%-24)/2);
 }
 }
 
