@@ -692,13 +692,13 @@ background-image: url(../images/antenna.svg);
     margin: 0 auto;
 }
 
-.subtitle .item {
+.subtitle-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 } 
 
-.features .text {
+.features .team-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -1056,7 +1056,7 @@ gap: 24px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .sub-media {
