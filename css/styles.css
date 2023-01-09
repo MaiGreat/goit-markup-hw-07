@@ -873,7 +873,7 @@ margin-bottom: 72px;
 }*/
 
 /*button*/
-/*.nav-button {
+.nav-button {
     color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
@@ -914,19 +914,22 @@ gap: 24px;
 
 .second {
     padding-top: 96px;
-}*/
+}
 
 
 /*=================================FOOTER================================================*/
 @media screen and (min-width: 480px) {
     .footer-page {
-        flex-direction: column;
+       
     }
 
 .footer-logo {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 72px;
 }
+
+
 
 .media {
     text-align: center;
@@ -1112,12 +1115,12 @@ gap: 24px;
     0px 2px 1px rgb(46 47 66 / 8%);
  }
 
-.sub-linl {
+/* .sub-linl {
     position: absolute;
     right: 0;
     bottom: 0;
     transform: translate(-50%, -50%)
-}
+} */
 
 
 /*--------------------------------------MODAL-----------------------------*/
