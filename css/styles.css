@@ -610,7 +610,7 @@ margin-top: 48px;
 .features {
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 24px;
+    gap: 64px;
 }
 
 .type-works {
@@ -692,6 +692,11 @@ background-image: url(../images/antenna.svg);
     margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+    .card-team {
+        margin: 0;
+    }
+}
 .subtitle-item {
     font-weight: 500;
     font-size: 20px;
@@ -964,11 +969,14 @@ gap: 24px;
 @media screen and (min-width: 768px) {
     .footer-page {
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
         .footer-page {
             display: flex;
-    
+        }
+        .social-media{
+            margin-left: 24px;
         }
 }
 
