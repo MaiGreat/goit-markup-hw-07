@@ -952,9 +952,12 @@ gap: 24px;
     display: flex;
     flex-direction: column;
     margin-bottom: 72px;
+    align-items: center;
 }
 
-
+.logo {
+    margin: 0;
+}
 
 .media {
     text-align: center;
