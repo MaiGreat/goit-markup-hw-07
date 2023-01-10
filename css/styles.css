@@ -580,9 +580,10 @@ margin-top: 48px;
 @media screen and (min-width: 480px) {
 .features {
     display: flex;
-        flex-direction: column;
-        gap: 72px;
-        justify-content: center;
+    flex-direction: column;
+    column-gap: 72px;
+    row-gap: 72px;
+    justify-content: center;
     }
 
     .about-us>h3 {
@@ -610,7 +611,8 @@ margin-top: 48px;
 .features {
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 64px;
+    column-gap: 24px;
+    row-gap: 72px
 }
 
 .type-works {
@@ -619,6 +621,8 @@ margin-top: 48px;
 
 .about-us {
 flex-basis: calc((100% - 24px)/2);
+/* colum-gap: 24px;
+    row-gap: 72px */
 }
 }
 
@@ -628,8 +632,7 @@ flex-basis: calc((100% - 24px)/2);
 
 @media screen and (min-width: 1200px) {
     .features {
-    gap: 24px;
-    flex-wrap: nowrap;
+    row-gap: 48px
     }
 } 
 
@@ -778,7 +781,7 @@ background-image: url(../images/antenna.svg);
 /*flex-basis: calc((100% - кол-во маржинов в строке * значение маржина) / кол-во элементов в строке);*/
 
     .customers-add {
-        flex-basis: calc((100%-5*24)/6);
+    flex-basis: calc((100%-5*24)/6);
     }
 
 .customers {
@@ -855,10 +858,16 @@ align-items: center;
     justify-content: center;
 }
 
-
+.portfolio-link {
+    display: flex;
+    flex-basis: calc((100% - 24px)/2);
+}
 }
 
 @media screen and (min-width: 1200px) {
+.portfolio-link {
+    flex-basis: calc((100% - 3*24px)/3);
+}
 
 }
 .overlay-link {
@@ -997,6 +1006,14 @@ gap: 24px;
         .social-media{
             margin-left: 24px;
         }
+    
+    .sub {
+        text-align: left;
+    }
+
+    .logo {
+        text-align: left;
+    }
 }
 
 @media screen and (min-width: 1200px) {
