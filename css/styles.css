@@ -843,12 +843,19 @@ height: 40px;
 display: flex;
 align-items: center;
 }
+
+.features .portfolio-link .text {
+    font-weight: 400;
+}
+
 }
 
 @media screen and (min-width: 768px) {
 .button {
     justify-content: center;
 }
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -955,8 +962,7 @@ gap: 24px;
 
 /*=================================FOOTER================================================*/
 @media screen and (min-width: 480px) {
-    .footer-page {
-    }
+
 
 .footer-logo {
     display: flex;
