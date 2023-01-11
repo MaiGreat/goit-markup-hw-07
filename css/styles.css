@@ -510,6 +510,7 @@ padding: 24px 0;
 @media screen and (min-width: 480px) {
 .hero .button-hero {
 margin-top: 72px;
+display: flex;
 }
 }
 
@@ -547,7 +548,7 @@ margin-top: 48px;
     font-family: inherit;
     letter-spacing: 0.04em;
     border-radius: 4px;
-    display: flex;
+    
     padding: 16px 32px;
     
     margin-left: auto;
@@ -671,10 +672,17 @@ flex-basis: calc((100% - 24px)/2);
 }
 
 .features-about-us .text {
-    color: var(--text-color);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+font-weight: 400;
+}
+
+.features-about-us .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.type-works {
+    display: flex;
 }
 } 
 
@@ -753,6 +761,8 @@ background-image: url(../images/antenna.svg);
     font-size: 16px;
     line-height: 1.5;
 }
+
+
 }
 
 
