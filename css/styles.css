@@ -114,7 +114,6 @@ screen and (min-resolution: 2dppx) and (max-width: 480px) {
 .modal {
     max-width: 392px;
 }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -148,8 +147,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/laptop/Dark-bg@2x.jpg);
-    }
 }
+}
+
 
 .hero .hero-titel {
     font-weight: 600;
@@ -412,7 +412,7 @@ padding-top: 120px;
 
 /*=======================================SITE NAVIGATION==================================*/
 
-@media screen and (min-width: 768px) {
+
 
 .site-nav .link {
     color: var(--main-text-color);
@@ -457,7 +457,7 @@ padding-top: 120px;
 .auth-nav .link {
     color: var(--text-color);
     font-weight: 400;
-    font-size: 16px;
+    
     line-height: 1.5;
     text-decoration: none;
     letter-spacing: 0.02em;
@@ -487,6 +487,15 @@ padding-top: 120px;
     color: var(--accent-color);
     
 }
+
+@media screen and (min-width: 768px) {
+.auth-nav .link {
+        font-size: 12px;
+    }
+
+.auth-nav {
+    margin-left: auto;
+}
 }
 
 @media screen and (min-width: 1200px) {
@@ -497,6 +506,7 @@ padding-top: 120px;
     
 .auth-nav .link {
 padding: 24px 0;
+font-size: 16px;
 }
 
 .email {
@@ -512,6 +522,7 @@ padding: 24px 0;
 margin-top: 72px;
 display: flex;
 }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -613,8 +624,10 @@ display: flex;
 
 @media screen and (min-width: 768px) {
 .about-us>h3 {
-    /* margin-bottom: 8px; */
+
     width: 264px;
+    text-align: left;
+    
 }
 
 .features-about-us {
@@ -656,9 +669,9 @@ flex-basis: calc((100% - 24px)/2);
 }
 }
 
-.about-us>p {
+/* .about-us>p {
     margin: 0;
-}
+} */
 
 @media screen and (min-width: 1200px) {
     .features {
@@ -744,6 +757,7 @@ background-image: url(../images/antenna.svg);
 .card-team {
     margin: 0 auto;
 }
+}
 
 @media screen and (min-width: 768px) {
     .card-team {
@@ -754,6 +768,7 @@ background-image: url(../images/antenna.svg);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: 8px;
 } 
 
 .features .team-text {
@@ -763,7 +778,6 @@ background-image: url(../images/antenna.svg);
 }
 
 
-}
 
 
 .team {
@@ -793,23 +807,23 @@ background-image: url(../images/antenna.svg);
     margin-top: 12px;
 }
 
-.social {
+
+.social-link {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--logo-past-text);
+
     width: 40px;
     height: 40px;
     background-color: var(--accent-color);
     border-radius: 50%;
 }
 
-.social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    fill: var(--logo-past-text);
-}
+.social-link:focus,
+.social-link:hover {
 
+}
 
 /*--------------------------------------CUSTOMERS--------------------------------*/
 @media screen and (min-width: 480px) {
@@ -933,7 +947,7 @@ align-items: center;
 
 @media screen and (min-width: 1200px) {
 .portfolio-link {
-    flex-basis: calc((100% - 3*24px)/3);
+    flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 .features-pf {
@@ -943,6 +957,9 @@ align-items: center;
     column-gap: 24px;
 }
 
+.second {
+    padding-top: 96px;
+}
 }
 .overlay-link {
     display: block;
@@ -1074,12 +1091,9 @@ gap: 24px;
         flex-wrap: wrap;
     }
 
-        .footer-page {
-            display: flex;
-        }
-        .social-media{
-            margin-left: 24px;
-        }
+.footer-page {
+    display: flex;
+}
     
     .sub {
         text-align: left;
@@ -1088,6 +1102,19 @@ gap: 24px;
         .logo {
             margin-right: 77px;
         }
+
+    .footer-logo {
+        align-items: flex-start;
+        margin-right: 24px;
+    }
+
+.media-footer {
+    padding: 0;
+    }
+
+.media {
+    text-align: left;
+}
 }
 
 @media screen and (min-width: 1200px) {
@@ -1097,14 +1124,18 @@ gap: 24px;
 
 .social-media {
     margin-right: 80px;
+    margin-left: 0;
 }
 
 .footer-page {
     flex-wrap: nowrap;
 }
 
-
-
+.footer-logo {
+    margin-bottom: 0;
+    margin-right: 0;
+    
+}
 }
 
 .footer {
@@ -1201,6 +1232,12 @@ gap: 24px;
 .sub-media {
     margin-right: 24px;
 }
+}
+
+@media screen and (min-width: 1200px) {
+.sub-media {
+        margin-right: 0;
+    }
 }
 
 .sub {
