@@ -114,6 +114,8 @@ screen and (min-resolution: 2dppx) and (max-width: 480px) {
 .modal {
     max-width: 392px;
 }
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -339,7 +341,7 @@ letter-spacing: 0.02em;
 
 
 .tel-mobile {
-    font-size: 26px;
+    font-size: 36px;
 }
 
 .social-icon {
@@ -350,6 +352,10 @@ letter-spacing: 0.02em;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+}
+
+.sub-media {
+    width: 100%;
 }
 }
 
@@ -380,6 +386,13 @@ letter-spacing: 0.02em;
 }
 
 /*==================================MOBILE-MENU=========================*/
+@media screen and (min-width: 768px) {
+    .modal-text {
+        
+        
+    }
+}
+
 .mobile-menu {
     position: fixed;
     width: 100%;
@@ -782,14 +795,9 @@ display: flex;
 
 .about-us {
 flex-basis: calc((100% - 24px)/2);
-/* colum-gap: 24px;
-    row-gap: 72px */
 }
 }
 
-/* .about-us>p {
-    margin: 0;
-} */
 
 @media screen and (min-width: 1200px) {
     .features {
@@ -938,10 +946,6 @@ background-image: url(../images/antenna.svg);
     border-radius: 50%;
 }
 
-.social-link:focus,
-.social-link:hover {
-
-}
 
 /*--------------------------------------CUSTOMERS--------------------------------*/
 @media screen and (min-width: 480px) {
