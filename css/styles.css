@@ -262,6 +262,10 @@ url(../images/mobile/Dark-bg-mobile@2x.jpg)
     margin-bottom: 72px;
 }
 
+.hero .button-hero {
+    display: flex;
+}
+
 .section  {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -312,20 +316,16 @@ letter-spacing: 0.02em;
 .footer-logo {
     margin-bottom: 72px;
     text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .media-footer {
     text-align: center;
     margin-bottom: 72px;
 }
-
-/* .sub-input {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 .subscribe {
     flex-direction: column;
@@ -337,10 +337,6 @@ letter-spacing: 0.02em;
     text-align: center;
 }
 
-.footer-text {
-    margin: 0;
-    text-align: center;
-}
 
 .tel-mobile {
     font-size: 26px;
@@ -348,6 +344,12 @@ letter-spacing: 0.02em;
 
 .social-icon {
     fill: #fff;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 }
 
