@@ -127,6 +127,9 @@ padding-bottom: 96px;
 padding-top: 96px;
 }
 
+.tel-mobile {
+    font-size: 36px;
+}
 .page-header {
     padding-top: 0;
     padding-bottom: 0;
@@ -316,14 +319,20 @@ letter-spacing: 0.02em;
     margin-bottom: 72px;
 }
 
-.sub-input {
+/* .sub-input {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
+.subscribe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
 .sub {
     text-align: center;
 }
@@ -331,6 +340,14 @@ letter-spacing: 0.02em;
 .footer-text {
     margin: 0;
     text-align: center;
+}
+
+.tel-mobile {
+    font-size: 26px;
+}
+
+.social-icon {
+    fill: #fff;
 }
 }
 
@@ -431,7 +448,6 @@ letter-spacing: 0.02em;
 
 .tel-mobile {
     font-weight: 600;
-    font-size: 36px;
     line-height: 1.11;
     color: var(--accent-color);
     text-decoration: none;
