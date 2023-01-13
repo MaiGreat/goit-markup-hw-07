@@ -240,7 +240,7 @@ padding-top: 120px;
 }
 
 .modal {
-    width: 320px;
+    width: calc(100% - 50px);
 }
 
 .hero {
