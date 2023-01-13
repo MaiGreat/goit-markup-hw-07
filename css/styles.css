@@ -163,9 +163,6 @@ background-image:
     max-width: 500px;
 }
 
-.modal {
-    width: 408px;
-}
 
 
 .features .subtitle {
@@ -240,6 +237,10 @@ padding-top: 120px;
 
 .container {
     max-width: 428px;
+}
+
+.modal {
+    width: 320px;
 }
 
 .hero {
@@ -357,6 +358,7 @@ letter-spacing: 0.02em;
 .sub-media {
     width: 100%;
 }
+
 }
 
 .visually-hidden {
@@ -386,12 +388,7 @@ letter-spacing: 0.02em;
 }
 
 /*==================================MOBILE-MENU=========================*/
-@media screen and (min-width: 768px) {
-    .modal-text {
-        
-        
-    }
-}
+
 
 .mobile-menu {
     position: fixed;
@@ -626,6 +623,10 @@ letter-spacing: 0.02em;
 
 .auth-nav {
     margin-left: auto;
+}
+
+.site-nav {
+    display: flex;
 }
 }
 
@@ -1201,9 +1202,7 @@ gap: 24px;
     text-align: center;
 }
 
-.media-footer {
-    padding: 10px 10px 72px 10px;
-}
+
 
 }
 
