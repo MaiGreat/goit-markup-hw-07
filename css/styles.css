@@ -322,7 +322,7 @@ letter-spacing: 0.02em;
 .footer-logo {
     margin-bottom: 72px;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     display: flex;
     flex-direction: column;
 
@@ -627,6 +627,7 @@ letter-spacing: 0.02em;
 @media screen and (min-width: 768px) {
 .auth-nav .link {
         font-size: 12px;
+        margin-bottom: 4px;
     }
 
 .auth-nav {
