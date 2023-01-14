@@ -142,7 +142,6 @@ padding-top: 96px;
             linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/people-office.jpg);
         max-width: 1440px;
-        padding: 192px 0 192px 0;
     }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -172,6 +171,10 @@ background-image:
 
 .mobile-open {
     display: none;
+    }
+
+    .email-mobile {
+    margin-top: 4px;
     }
 
 }
@@ -757,7 +760,6 @@ display: flex;
 @media screen and (min-width: 768px) {
 .about-us>h3 {
 
-    width: 264px;
     text-align: left;
     
 }
@@ -1239,9 +1241,7 @@ gap: 24px;
 }
 
 @media screen and (min-width: 1200px) {
-.footer-text {
-    margin-right: 72px;
-}
+
 
 .social-media {
     margin-right: 80px;
@@ -1255,7 +1255,7 @@ gap: 24px;
 .footer-logo {
     margin-bottom: 0;
     margin-right: 0;
-    
+    margin-right: 120px;
 }
 }
 
