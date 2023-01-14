@@ -112,7 +112,7 @@ screen and (min-resolution: 2dppx) and (max-width: 480px) {
     }
 
 .modal {
-    max-width: 392px;
+    max-width: 408px;
 }
 
 
@@ -461,6 +461,9 @@ letter-spacing: 0.02em;
     color: #404BBF;
 }
 
+.mob {
+    color: #404BBF;
+}
 
 .tel-mobile {
     font-weight: 700;
