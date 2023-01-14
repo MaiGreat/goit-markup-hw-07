@@ -456,13 +456,15 @@ letter-spacing: 0.02em;
 }
 
 .mobile-menu-text:hover,
-.mobile-menu-text:focus {
+.mobile-menu-text:focus,
+.mobile-menu-text:active {
     color: #404BBF;
 }
 
 
 .tel-mobile {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.11;
     color: var(--accent-color);
     text-decoration: none;
@@ -492,7 +494,7 @@ letter-spacing: 0.02em;
 
 .icon-social-mobile {
     display: flex;
-    justify-content: space-around;
+    gap: 56px;
 
 }
 
@@ -1204,7 +1206,9 @@ gap: 24px;
     text-align: center;
 }
 
-
+.footer-text {
+    text-align: left;
+}
 
 }
 
